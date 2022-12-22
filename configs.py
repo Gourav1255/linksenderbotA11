@@ -5,11 +5,11 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.getenv("API_ID", "12124605"))
-    API_HASH = os.getenv("API_HASH", "5cf3577d85fd02286535ec2296934287")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "5660564414:AAE2Hem9t5uouIXHlMMV6Rq-D8A8L1k5ku8")
-    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "mdiskcynitebot")
-    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "String")
+    API_ID = int(os.getenv("API_ID", "26813710"))
+    API_HASH = os.getenv("API_HASH", "56ded95eda29b601363e3093a54ba42b")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "5833167163:AAFshZUhsHt6z9YibosrRNuBhfWIZ1Gfwg0")
+    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "mdisksercherbot")
+    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOJYBu2XQmAG90n_wc19Dbf4cTsvuWLE9bsAIYNOptnsl-rmA-vgnvVR4aXqVBvTVIUvIfrvcsimGtf3Ic-_rBSlCWws2ocMml5jb9YgKhv36DK346hzNbcd6mcXE6sJGvQUW7XAVxk017a44YD8z8WTa0ZQLieWjbXFk181MtE7_hRUROHDFFQ-uqAlCBMCSLtscR-ZDYkcqh-U33sy_q6j8bt-4h59ZWdFRr1sOySk7sDjHG0pJPC7eI_C-9y_R272VYMufSco2MjbuIYKSYFt7oW3-bgVHIxSwXFaqOOB96S1ZxfA-RBCbvlMHttpfWQtHAg6xatsMRMoMqpOvKPcnPDY=")
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001558716347")) 
     BOT_USERNAME = os.getenv("BOT_USERNAME", "cynitemdiskbot")
     BOT_OWNER = int(os.getenv("BOT_OWNER", "1883570185"))
