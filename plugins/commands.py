@@ -15,8 +15,8 @@ async def help_handler(_, event: Message):
 
             InlineKeyboardMarkup([
             [
-            InlineKeyboardButton('Request Movies Here', url='https://t.me/requestluciferdownload')
-             ],
+            InlineKeyboardButton('➕ Request Movies here ➕', url=f'http://t.me/requestluciferdownload')
+            ],
 
              [InlineKeyboardButton("About", callback_data="About_msg"),
              InlineKeyboardButton("Help", callback_data="Help_msg")
