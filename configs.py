@@ -5,15 +5,15 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.getenv("API_ID", "26813710"))
-    API_HASH = os.getenv("API_HASH", "56ded95eda29b601363e3093a54ba42b")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "5833167163:AAFshZUhsHt6z9YibosrRNuBhfWIZ1Gfwg0")
-    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "mdisksercherbot")
-    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOIgBu436Leitly3gWVtOqMNPMlHKh-DSWbmitUMCiolWoNRKJXv6lbVNWteU0YAtJNyHwQ213fJtFhHVkXJJw_G4IbrgFYjpEwhObro5rLL5LVlBI8dbgx0atsz4qknLPhH4Rl6P9BlH-EvAoDkq3BFmp6WnYVuDH7BuxWBW-JJlmci40RqGaHUMB3svMmHQBGxm-xEea6PkfG2-DeMwHBqmrC6lFsiB0PaoV9QtcT7ro5rdqc0tXoKHnwBDqK8K5npxH3mNXTY3GoEp7FUTKNayMhLMfmHgc8N2IkA7mx_JRqzAmvmzMMltGSWk50Js0Xj9pnVeLhJie3gIqKaPWilXoeI=")
-    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001154529469")) 
-    BOT_USERNAME = os.getenv("BOT_USERNAME", "Mdisk_search_netflix_bot")
-    BOT_OWNER = int(os.getenv("BOT_OWNER", "884919097"))
-#    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "@Sohan_rajpurohit_7413")
+    API_ID = int(os.getenv("API_ID", "19751208"))
+    API_HASH = os.getenv("API_HASH", "7ee46e0888432fad23173820d4caddf2")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "5724687652:AAEdhGjYGSfpfF9QWBwYfWvYO47G7jor5ck")
+    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "Linksenderbot")
+    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOHABu8bAOzlLJt-Y8vib30l8zG4KrwzUo09retVEUrS_yE3XpHYwksszo3m6L8qKVDfUAqNTY4Tt2UJbI9mB5AB7Ke_I0Zt2SlfWJ_0bXLMft8jHhZS6gUnbe71rJgwh2UJJsQQfzipaIW4Wlz0ZAgJ-VzBbUKks5Yg7KJONL-XInEtIFcfZ09RowM6TVyq_yvpcgKtim_qDWSQmI1Iqpjnf8e6IDfwefN9iBwSQpqXulIXWXbXN8hRvo3qelIuRDykc18gtHZJ07PgpfwASZraOyRGI8cMnKCp1C8JVa2mgmVPjzXliNINPv1bFd4Agq3UvIhNEa50a5CO3QenytcAOKx4=")
+    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001779312100")) 
+    BOT_USERNAME = os.getenv("BOT_USERNAME", "GoruMovielinksender_bot")
+    BOT_OWNER = int(os.getenv("BOT_OWNER", "1898448702"))
+#    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "@sharmaofficial143")
     BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "Supportchat")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
     START_MSG = os.getenv("START_MSG", """**Hᴇʏ {}, 
@@ -29,15 +29,15 @@ Jᴜsᴛ Tʏᴘᴇ ᴀ Mᴏᴠɪᴇ Nᴀᴍᴇ 🎬 \n If movies not available r
 ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇʀᴇ ʏᴏᴜʀ ʟɪɴᴋꜱ.
 
 ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏ ᴄʟɪᴄᴋ ᴏɴ ʜᴇʟᴘ ✅""" )
-    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001154529469")
-    DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://Sohanrazz:Sohanrazz@cluster0.umemvld.mongodb.net/?retryWrites=true&w=majority")
-    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001852774435"))
+    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001655479466")
+    DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://Linksenderbot:Linksenderbot12@cluster0.tzqv8no.mongodb.net/?retryWrites=true&w=majority")
+    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001319386280"))
     RESULTS_COUNT = int(os.getenv("RESULTS_COUNT", 20))
     BROADCAST_AS_COPY = os.getenv("BROADCAST_AS_COPY", "True")
-    UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "netflix_hindi_movies_4k")
+    UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "mxplayerfreemovies")
     FORCE_SUB = os.getenv("FORCE_SUB", "TRUE")
     AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", 180))
-    MDISK_API = os.getenv("MDISK_API", "IZSO9tr43cOBf6Erwv5q")
+    MDISK_API = os.getenv("MDISK_API", "jTxNj4qabWHQZyiEWcW2")
     VERIFIED_TIME  = int(os.getenv("VERIFIED_TIME", "31"))
     ABOUT_BOT_TEXT = os.getenv("ABOUT_TEXT", """I ᴏɴʟʏ ꜱʜᴀʀᴇ ᴛʜᴇ ᴘᴏꜱᴛ ꜰʀᴏᴍ ᴘᴇᴏᴘʟᴇ'ꜱ ᴄʜᴀɴɴᴇʟ! 
 
