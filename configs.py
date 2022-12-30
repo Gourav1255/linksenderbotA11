@@ -8,7 +8,7 @@ class Config(object):
     API_ID = int(os.getenv("API_ID", "19751208"))
     API_HASH = os.getenv("API_HASH", "7ee46e0888432fad23173820d4caddf2")
     BOT_TOKEN = os.getenv("BOT_TOKEN", "5724687652:AAEdhGjYGSfpfF9QWBwYfWvYO47G7jor5ck")
-    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "Linksenderbot")
+    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "Linksenderbota1")
     USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOHABu8bAOzlLJt-Y8vib30l8zG4KrwzUo09retVEUrS_yE3XpHYwksszo3m6L8qKVDfUAqNTY4Tt2UJbI9mB5AB7Ke_I0Zt2SlfWJ_0bXLMft8jHhZS6gUnbe71rJgwh2UJJsQQfzipaIW4Wlz0ZAgJ-VzBbUKks5Yg7KJONL-XInEtIFcfZ09RowM6TVyq_yvpcgKtim_qDWSQmI1Iqpjnf8e6IDfwefN9iBwSQpqXulIXWXbXN8hRvo3qelIuRDykc18gtHZJ07PgpfwASZraOyRGI8cMnKCp1C8JVa2mgmVPjzXliNINPv1bFd4Agq3UvIhNEa50a5CO3QenytcAOKx4=")
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001779312100")) 
     BOT_USERNAME = os.getenv("BOT_USERNAME", "GoruMovielinksender_bot")
